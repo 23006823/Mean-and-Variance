@@ -43,6 +43,7 @@ Experiment :
 Program :
 Developed by : M. GAYATHIRI ROSHINI
 Register number : 212223110012
+````
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -65,6 +66,7 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
+````
 Output :
 ![image](https://github.com/23006823/Mean-and-Variance/assets/138971409/6d3f40c7-ab1b-4b8e-9634-fbd656d9bdd3)
 Results :
